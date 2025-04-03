@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Knowledge Page</title>
+    <style>
+        .minas {
+            background-image: url('contact page background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hey {
+            color: #000000;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .hey1 {
+            color: #000000;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #name, #email, #message {
+            width: 300px;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn {
+            width: 120px;
+            height: 40px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* footer */
+
+        * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    footer {
+      background-color: black;
+    }
+
+    .footercontainer {
+      width: 100%;
+      padding: 70px 30px 20px;
+    }
+
+    .socialicons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .socialicons a {
+      text-decoration: none;
+      padding: 10px;
+      background-color: white;
+      margin: 10px;
+      border-radius: 50px;
+    }
+
+    .socialicons a i {
+      font-size: 3em;
+      color: black;
+      opacity: 0.9;
+    }
+
+    .socialicons a:hover {
+      background-color: #111;
+      transition: 0.5s;
+    }
+
+    .socialicons a:hover {
+      color: white;
+      transition: 0.5s;
+    }
+
+    .footernav {
+      margin: 30px 0;
+    }
+
+    .footernav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footernav ul li a {
+      color: white;
+      margin: 20px;
+      text-decoration: none;
+      font-size: 1.3em;
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+
+    .footernav ul li a:hover {
+      opacity: 1;
+    }
+
+    .footerbottom p {
+      color: white;
+      align-content: center;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+        <!-- navigation bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="web.html">Mridhi</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="web.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="About Us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="operating system.html">Operating System</a></li>
+                        <li><a class="dropdown-item" href="#">Keyboard & Mouse</a></li>
+                        <li><a class="dropdown-item" href="#">Assesories</a></li>
+                        <li><a class="dropdown-item" href="#">Laptops</a></li>
+                        <li><a class="dropdown-item" href="#">Computers</a></li>
+                        <li><a class="dropdown-item" href="#">Earphones</a></li>
+                        <li><a class="dropdown-item" href="#">Speakers</a></li>
+                        <li><a class="dropdown-item" href="#">Smartwatches</a></li>
+                        <li><a class="dropdown-item" href="#">Television</a></li>
+                        <li><a class="dropdown-item" href="#">Hacking</a></li>
+                        <li><a class="dropdown-item" href="hacking tools.html">Hacking Tools</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit">Search</button>                </form>
+              </div>
+            </div>
+          </nav>
+          
+
+          <!-- contact box -->
+
+  <div class="container-fluid bg-image" style="background-image: url('contact page background.jpg'); height: 100vh; display: flex; justify-content: center; align-items: center;">
+    <div class="minas">
+        <h1 class="hey">Contact Us</h1>
+        <p class="hey1">We would love to hear from you! Please fill out the form below and we will get back to you as soon as possible.</p>
+        <form>
+           <a href="web.html">
+             <button class="back" type="button" onclick="window.history.back();">Back</button>
+            </a>
+        <input type="text" id="name" placeholder="Enter your name">
+        <input type="text" id="email" placeholder="Enter your email">
+        <input type ="text" id="message" placeholder="Enter your message">
+        <br>
+        <a href="web.html">
+        <button class="btn" type="submit" onclick="window.history.back();">submit</button>
+        </a>   
+      </form>
+    </div>
+  </div>
+    
+
+     <!-- footer is here -->
+
+     <footer>
+        <div class="footercontainer">
+          <div class="socialicons">
+            <a href="https://www.facebook.com/profile.php?id=61565476422842&mibextid=ZbWKwL"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/_wallpaper_world_13?igsh=bzgzM2tiamRqdjFz"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/wallpaperword13?t=kVAD8N4oUITYr8h5PZgGGA&s=09"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.threads.net/@_wallpaper_world_13?xmt=AQGzJSiOruQmHpDrSUfCubawDjXozjkiw1Yf7qoJyE6ALg4"><i
+                class="fa-brands fa-threads"></i></a>
+          </div>
+          <div class="footernav">
+            <ul>
+              <li><a href="web.html">Home</a></li>
+              <li><a href="About Us.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="">Help</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerbottom justify-content-center text-center">
+            <p>All rights reserved</p>
+          <p>copyrights &copy;2025; Designed by Manan</p>
+        </div>
+      </footer>
+</body>
+
+</html>
